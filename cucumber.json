@@ -1,0 +1,489 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Valid Integrity user should be able to create new Business Interior Free ACH BOF  account",
+        "description": "",
+        "id": "as-ani-ntegrity-user,-i-want-account-creation-page,-so-that-a-valid-user-can-create-new-business-interior-free-transonly-ach-bof-account;valid-integrity-user-should-be-able-to-create-new-business-interior-free-ach-bof--account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008057500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a valid Integrity user \"55\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55",
+                  "offset": 24
+                }
+              ],
+              "location": "Create_Integrity_NewAccount_Steps.a_valid_Integrity_user(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57389640800,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d80.0.3987.87)\nBuild info: version: \u00273.6.0\u0027, revision: \u00276fbf3ec767\u0027, time: \u00272017-09-27T15:28:36.4Z\u0027\nSystem info: host: \u0027DAL-YAGHIA\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir\u003dC:\\Users\\YaghiA\\AppData\\Local\\Temp\\scoped_dir42376_232335686}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dWINDOWS, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61486}, acceptInsecureCerts\u003dfalse, browserVersion\u003d80.0.3987.87, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dWINDOWS, setWindowRect\u003dtrue}]\nSession ID: 5b578c8eacf2a712ffa62a796daf225a\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:877)\r\n\tat util.Internal_Common.openBrowser(Internal_Common.java:53)\r\n\tat steps.Create_Integrity_NewAccount_Steps.user_goes_to_NCTA_Integrity_site_and_login_with_valid_Credential(Create_Integrity_NewAccount_Steps.java:118)\r\n\tat ✽.When User goes to NCTA Integrity site and login with valid Credential(./src/test/java/features/Create_Integrity_NewAccount_Business_TransOnly_InteriorFree_ACH_BOF.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User goes to NCTA Integrity site and login with valid Credential",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_goes_to_NCTA_Integrity_site_and_login_with_valid_Credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Home page should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.home_page_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click on hamburger and click on Create new account",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_click_on_hamburger_and_click_on_Create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Account type tab should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.account_type_tab_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User choose account type Business and click next",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_choose_account_type_Business_and_click_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Contact tab should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.contact_tab_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User fill Business contact information fields and click next",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_fill_Business_contact_information_fields_and_click_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Vehicles tab should display",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.vehicles_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User add vehicles Only and transponders Only Interior Free warehouse and click next",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_add_vehicles_Only_and_transponders_Only_Interior_Free_warehouse_and_click_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Billing tab should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.billing_tab_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User fill billing ACH BOF details and click next",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_fill_billing_ACH_BOF_details_and_click_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Confirm tab should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.confirm_tab_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click next on confirmation tab",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_click_next_on_confirmation_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Payment tab should displa",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.payment_tab_should_displa()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User fill payment ACH BOF detailes and click next",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_fill_payment_ACH_BOF_detailes_and_click_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Summary tab should display",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.summary_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User click on print and send by email the details and receipt",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.user_click_on_print_and_send_by_email_the_details_and_receipt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Details and receipt email msg should display and print page should display",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.details_and_receipt_email_msg_should_display_and_print_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Store Business Account Number take screenshot and click finish button",
+            "match": {
+              "location": "Create_Integrity_NewAccount_Steps.store_Business_Account_Number_take_screenshot_and_click_finish_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As anI ntegrity user, I want account creation page, so that a valid user can create New Business Interior Free TransOnly ACH BOF Account",
+    "description": "",
+    "id": "as-ani-ntegrity-user,-i-want-account-creation-page,-so-that-a-valid-user-can-create-new-business-interior-free-transonly-ach-bof-account",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/Create_Integrity_NewAccount_Business_TransOnly_InteriorFree_ACH_BOF.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user should be able to create new Web Personal exterior free CCVisa  account",
+        "description": "",
+        "id": "as-an-user,-i-want-create-new-account-page,-so-that-user-can-create-new-web-personal-exterior-free-ccvisa-account;user-should-be-able-to-create-new-web-personal-exterior-free-ccvisa--account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 503007300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user \"56\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56",
+                  "offset": 8
+                }
+              ],
+              "location": "Create_Web_NewAccount_Steps.a_user(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15186559900,
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom chrome not reachable\n  (Session info: chrome\u003d80.0.3987.87)\nBuild info: version: \u00273.6.0\u0027, revision: \u00276fbf3ec767\u0027, time: \u00272017-09-27T15:28:36.4Z\u0027\nSystem info: host: \u0027DAL-YAGHIA\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00320C83+1707139]\n\tOrdinal0 [0x002868F1+1075441]\n\tOrdinal0 [0x001FDE72+515698]\n\tOrdinal0 [0x001F7CA8+490664]\n\tOrdinal0 [0x001F839B+492443]\n\tOrdinal0 [0x001F92F5+496373]\n\tOrdinal0 [0x001F4F05+478981]\n\tOrdinal0 [0x001FECA0+519328]\n\tOrdinal0 [0x001ACA67+182887]\n\tOrdinal0 [0x001ABDDD+179677]\n\tOrdinal0 [0x001A9D4B+171339]\n\tOrdinal0 [0x00191D4A+73034]\n\tOrdinal0 [0x00192DC0+77248]\n\tOrdinal0 [0x00192D59+77145]\n\tOrdinal0 [0x0029BB67+1162087]\n\tGetHandleVerifier [0x003BA966+508998]\n\tGetHandleVerifier [0x003BA6A4+508292]\n\tGetHandleVerifier [0x003CF7B7+594583]\n\tGetHandleVerifier [0x003BB1D6+511158]\n\tOrdinal0 [0x0029402C+1130540]\n\tOrdinal0 [0x0029D4CB+1168587]\n\tOrdinal0 [0x0029D633+1168947]\n\tOrdinal0 [0x002B5B35+1268533]\n\tBaseThreadInitThunk [0x75776359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D07C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77D07BF4+180]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:140)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat util.External_Common.openBrowser(External_Common.java:32)\r\n\tat steps.Create_Web_NewAccount_Steps.user_goes_to_NCTA_signUp_page_and_click_on_signUp_button(Create_Web_NewAccount_Steps.java:106)\r\n\tat ✽.When User goes to NCTA signUp page and click on signUp button(./src/test/java/features/Create_Web_NewAccount_Personal_ExteriorFree_CC.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User goes to NCTA signUp page and click on signUp button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_goes_to_NCTA_signUp_page_and_click_on_signUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Terms tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.terms_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User choose personal account type and click on agree terms checkBox and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_choose_personal_account_type_and_click_on_agree_terms_checkBox_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User personal inforamtion tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_personal_inforamtion_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User fill personal inforamtion fields and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_fill_personal_inforamtion_fields_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Security tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.security_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User fill security details field and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_fill_security_details_field_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Vehicles \u0026 transponders tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.vehicles_transponders_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User add vehicles and transponders and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_add_vehicles_and_transponders_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Billing tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.billing_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User fill billing CCVisa details and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_fill_billing_CCVisa_details_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Confirmation tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.confirmation_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User click continue button on confirm tab",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_click_continue_button_on_confirm_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Payment tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.payment_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User fill payment CCVisa detailes and click continue button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_fill_payment_CCVisa_detailes_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Payment reciept tab should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.payment_reciept_tab_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click on print receipt and print account summary icons and click on view your new account button",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.user_click_on_print_receipt_and_print_account_summary_icons_and_click_on_view_your_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "New account profile page should display",
+            "match": {
+              "location": "Create_Web_NewAccount_Steps.new_account_profile_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As an user, I want create new account page, so that user can create new Web Personal exterior free CCVisa account",
+    "description": "",
+    "id": "as-an-user,-i-want-create-new-account-page,-so-that-user-can-create-new-web-personal-exterior-free-ccvisa-account",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/Create_Web_NewAccount_Personal_ExteriorFree_CC.feature"
+  }
+]

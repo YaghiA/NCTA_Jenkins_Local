@@ -1,0 +1,1 @@
+mvn test -DiEnv="iUAT" -DeEnv="eUAT" -DUserName="A_Ranorex" -DPassword="Summer2020"
