@@ -21,7 +21,7 @@ glue= {"steps"},
  monochrome = false,
  plugin = {"pretty", "html:target/cucumber","json:target/cucumber.json","com.cucumber.listener.ExtentCucumberFormatter: target/report.html"},
 		
-		tags = {}
+		tags = {"@smoke"}
 		)
 public class Runner1 extends AbstractTestNGCucumberTests{
 //	@AfterClass
