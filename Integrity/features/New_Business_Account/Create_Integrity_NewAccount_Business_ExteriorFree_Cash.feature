@@ -1,5 +1,5 @@
 Feature: As an Integrity user, I want account creation page, so that a valid user can create New Business Exerior Free Cash Account
-@smoke
+@sm
 Scenario: Valid Integrity user should be able to create new Business Exterior Free Cash  account
 Given a valid Integrity user 
 When User goes to NCTA Integrity site and login with valid Credential
